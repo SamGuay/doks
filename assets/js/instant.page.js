@@ -1,1 +1,1 @@
-import 'instant.page';
+import 'js/vendor/instant.page/instantpage';

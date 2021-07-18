@@ -1,4 +1,4 @@
-import Clipboard from 'clipboard';
+import Clipboard from 'js/vendor/clipboard/clipboard';
 
 var pre = document.getElementsByTagName('pre');
 

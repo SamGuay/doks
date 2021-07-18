@@ -1,1 +1,1 @@
-import 'lazysizes';
+import 'js/vendor/lazysizes/lazysizes';

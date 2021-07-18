@@ -1,3 +1,4 @@
-<div class="alert alert-primary fixed-bottom text-center" role="alert">
-  {{ .Site.Params.alertText | safeHTML }}
+<div class="alert alert-primary fixed-bottom text-center fade show" role="alert">
+  {{ .Site.Params.alertText | markdownify | emojify }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>

@@ -1,5 +1,5 @@
 /** Import Bootstrap functions */
-@import "bootstrap/scss/functions";
+@import "themes/doks/node_modules/bootstrap/scss/_functions";
 
 /** Import theme variables */
 @import "common/variables";
@@ -8,7 +8,7 @@
 @import "bootstrap/scss/bootstrap";
 
 /** Import highlight.js */
-// @import "highlight.js/scss/github-dark-dimmed";
+@import "themes/doks/node_modules/highlight.js/scss/github-dark-dimmed";
 
 /** Import KaTeX */
 @import "katex/dist/katex";
